@@ -1,0 +1,9 @@
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 1;
+}
+.row{
+    height: flex;
+    box-sizing: border-box;
+}

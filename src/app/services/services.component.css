@@ -1,0 +1,48 @@
+@import "~swiper/css";
+@import '~swiper/css/navigation';
+@import '~swiper/css/pagination';
+
+.swiper-button-next,.swiper-button-prev {
+   background-color: black;
+   opacity: 30%;
+   border-radius: 100%;
+   height: 40px!important;
+   width: 40px!important;
+    
+}
+.swiper-button-next::after,.swiper-button-prev::after{
+   
+    font-size: 24px!important;
+    margin: auto!important;
+    
+    font-weight: bold;
+    color:white;
+    
+    
+}
+
+/* Media query for screens with a maximum width of 600 pixels */
+@media screen and (max-height: 668px) {
+    .card{
+        max-height: 70vh;
+        min-height: 70vh;
+    }
+ 
+  }
+  
+  /* Media query for screens with a minimum width of 601 pixels and a maximum of 900 pixels */
+  @media screen and (min-height: 669px) and (max-height: 932px) {
+    .card{
+        max-height: 65vh;
+        min-height: 65vh;
+      
+    }
+  }
+  
+  /* Media query for screens with a minimum width of 901 pixels */
+  @media screen and (min-width: 901px) {
+    .card{
+        max-height: 70vh;
+        min-height: 70vh;
+    }
+  }

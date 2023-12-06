@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Megrim';
+    src: url('../assets/Megrim/Megrim-Regular.ttf') format('truetype');
+  }
+
+  
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+   
+    width:0;
+    animation: typing 2.5s steps(100,end) forwards;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+  
+  /* @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: transparent}
+    100% {border-color: transparent}
+  } */
+  li a:hover{
+    background-color: grey;
+    border-radius: 10px;
+  }
+  li a:focus{
+    background-color: grey;
+    border-radius: 10px;
+  }
+
+nav{
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+a{
+  color: white;
+}
+
+@media screen and (max-width: 668px) {
+  /* .navbar-nav{
+    background-color:white ;
+  } */
+  .navbar-nav{
+    background-color:white ;
+  }
+  a{
+    color: black;
+  }
+  
+
+}

@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif!important;
+    
+  }
+.container{
+    font-size: 1.2rem;
+}
+.row{
+    height: flex;
+    box-sizing: border-box;
+}
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0.8;
+      transform: translateX(-400px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes fadeRight {
+    from {
+      opacity: 0;
+      transform: translateX(400px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+ 
+
+ 
+
+  .an {
+    animation: fadeIn 2s ease-out; /* Adjust the animation duration and timing function as needed */
+    animation-delay: 0s; /* Add a delay to stagger the animations */
+  }
+  h1{
+    animation: fadeIn 2s ease-out; 
+    animation-delay: 0s; 
+  }
+  h5{
+    animation: fadeRight 2s ease-out; 
+    animation-delay: 0s; 
+  }
+  
+  

@@ -1,0 +1,46 @@
+<div class="bg-dark text-white pb-2 my-lg-4 my-4"><p class="container" data-aos="fade-right" style="font-size:3.5rem;">Work</p></div>  
+
+<div class="row bg-dark text-white text-lg-start text-center d-flex justify-content-center m-0 pb-5" data-aos="zoom-in"  
+>
+    <div class="col-lg-5 my-auto ">
+    <swiper
+        [effect]="'fade'"
+        
+        [autoplay]="{ delay: 2000 }">
+      
+        <ng-template  *ngFor="let a of img" loading="eager" style="height:60vh ;" class="rounded-5" swiperSlide>
+          
+            <div >
+                
+                <img src={{a}} style="max-height: 90vh;min-height:55vh;object-fit: cover;" class="w-100 rounded-5"  data-aos="zoom-in">
+                <p class="fs-sm-3 fs-2 fw-bolder text-md-center" data-aos="fade-up" data-aos-duration='1000' >E-commerce Website</p>
+            </div>
+        </ng-template>
+      </swiper>
+    </div>
+    <div class="col-lg-7 d-flex ">
+        <div>
+      
+        <!-- <p class="fs-sm-3 fs-2 fw-bolder text-md-center" data-aos="fade-up" data-aos-duration='1000' >E-commerce Website</p> -->
+        <p class="fs-lg-2 fs-3" data-aos="fade-up" data-aos-duration='1000'>
+             This website provides users with a 
+            hassle-free shopping experience, allowing them to effortlessly explore a diverse range of products, 
+            add items to their virtual shopping cart, and securely complete online transactions.. 
+        </p>
+        <p class="fs-lg-4 fs-4 d-none d-lg-block" data-aos="fade-up" data-aos-duration='1000'>
+            By integrating Firebase,website ensures real-time updates and synchronization across devices, 
+            contributing to responsive and dynamic shopping environment.Additionally, the implementation of robust security measures guarantees that users' personal and financial information is
+            safeguarded throughout the entire checkout process. 
+        </p>
+
+        <p class="fs-lg-4 fs-4 " data-aos="fade-up" data-aos-duration='1000'>
+            Each product is showcased on dynamic pages featuring high-quality images, detailed descriptions, 
+            and customer
+            reviews to help users make well-informed decisions.
+        </p>
+       
+    </div>
+        
+    </div>
+
+</div>
